@@ -1,0 +1,16 @@
+<?php
+	$strTitle = "Connexion";
+	$strPage  = "Login";
+	include 'header.php';
+?>
+			<h2>Se connecter</h2>
+			<p>Page de connexion</p>
+			<form action="#" name="formConnect" method="post" >
+				<p><label for="mail">Mail</label><input type="email" name="mail" id="mail" /></p>
+				<p><label for="passwd">Mot de passe</label><input type="password" name="passwd" id="passwd" />
+				<input type="submit" value="Me connecter"/>
+			</form>
+			
+<?php
+	include 'footer.php';
+?>
